@@ -1,0 +1,15 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    Thomas Amar -- Developer -- @ebabel
+
+# THANKS
+
+    Facebook for developing React and offering it to all developers for free.
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    React.js
