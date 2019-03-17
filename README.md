@@ -28,6 +28,8 @@ The source of the code is at the root of the directory [index.html](index.html)
 When running `npm run build` the source will be minified into [public/index.html](public/index.html)
 
 ### Run locally during development
+Running locally will both build with `npm run build` and start a local server.
+
 ```
 npm start
 ```
@@ -36,6 +38,11 @@ Browse to http://localhost:8080
 
 
 ## Deploy to Production
+
+### Build the HTML (minify) that will be published.
+```
+npm run build
+```
 
 ### Deploy only hosting
 ```
@@ -49,5 +56,7 @@ firebase deploy
 
 Note: for now, this website doesn't have any database.
 
-## Future development: todo tasks
+## Future development
+
+### todo tasks
 - Turn this one page site into into a progressive web app, see Chrome Lighthouse.
