@@ -59,4 +59,5 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
+- Use a domain name once I have my BTW number from the tax office.
 - Turn this one page site into into a progressive web app, see Chrome Lighthouse.
