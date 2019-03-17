@@ -3,7 +3,7 @@ Freelance React.js and Node.js Developer in Amsterdam - Contact Thomas Amar on +
 
 ## Development
 
-## Pre-install
+### Pre-install
 Your local environment relies on Node.js (https://nodejs.org) and Firebase:
 
 ```
@@ -48,3 +48,6 @@ firebase deploy
 ```
 
 Note: for now, this website doesn't have any database.
+
+## Future development: todo tasks
+- Turn this one page site into into a progressive web app, see Chrome Lighthouse.
