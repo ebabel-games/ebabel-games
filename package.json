@@ -1,0 +1,30 @@
+{
+  "name": "thomas-amar",
+  "version": "1.0.0",
+  "description": "React.js and Node.js Freelancer website.",
+  "main": "public/index.html",
+  "scripts": {
+    "start": "npm run build && node node_modules/.bin/http-server public/",
+    "build": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebabel-eu/thomas-amar.git"
+  },
+  "keywords": [
+    "freelance"
+  ],
+  "author": "Thomas Amar <hello@ebabel.eu>",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ebabel-eu/thomas-amar/issues"
+  },
+  "homepage": "https://github.com/ebabel-eu/thomas-amar#readme",
+  "devDependencies": {
+    "@node-minify/core": "^4.0.5",
+    "@node-minify/html-minifier": "^4.0.5",
+    "http-server": "^0.11.1"
+  },
+  "dependencies": {}
+}
