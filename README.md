@@ -64,3 +64,5 @@ Note: for now, this website doesn't have any database.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability"
 - Turn all this into **isometric** React.js components, but make sure it is just a plain, single HTML file at the end of the process to preserve performance and still getting a single http request.
+- When clicking on Download CV, always download the file instead of opening it in browser? Is that a good idea?
+- Support translating to Dutch based on browser preference
