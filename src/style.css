@@ -125,10 +125,10 @@ footer {
 .games {
   display: flex;
   flex-flow: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 .games .content-block {
-  margin: 0 10px 20px;
+  margin: 0 0 1.5em;
   position: relative;
   width: 255px;
   height: 255px;
@@ -148,17 +148,19 @@ footer {
 .games .content-block:hover::before {
   background-color: #ff7547;
 }
+.games .content-block:nth-child(odd) {
+  margin-right: 1.5em;
+}
 .games .content-block a {
   position: absolute;
-  top: 50%;
+  top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   text-align: center;
   text-decoration: none;
   color: #030a2b;
-  margin-top: -50%;
-  padding-top: 15px;
+  padding-top: 7px;
 }
 .games .content-block a:visited,
 .games .content-block a:focus,
@@ -166,7 +168,7 @@ footer {
   color: #030a2b;
 }
 .games .content-block a:hover {
-  color: #fafbf4;  
+  color: #fafbf4;
 }
 .games .content-block.nov-2018 {
   background-image: url(images/nov-2018-logo.png);
@@ -183,4 +185,28 @@ footer {
 .games .content-block.the-questionables {
   background-image: url(images/the-questionables.png);
   background-position: 0 20px;
+}
+
+@media (max-width: 630px) {
+  .games {
+    justify-content: space-around;
+  }
+
+  .games .content-block {
+    width: 400px;
+    height: 400px;
+  }
+
+  .games .content-block:nth-child(odd) {
+    margin-right: 0;
+  }
+
+  .games .content-block.guess-my-number {
+    background-position: 0 39px;
+  }
+
+  .games .content-block.capture-aliens {
+    background-size: 385px;
+    background-position: center center;
+  }
 }
