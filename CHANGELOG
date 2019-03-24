@@ -1,5 +1,8 @@
 # Changelog
 
+# v1.0.2
+- Fix build that gets published to Firebase.
+
 # v1.0.1
 - Update BTW number.
 
