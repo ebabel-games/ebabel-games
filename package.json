@@ -1,6 +1,6 @@
 {
   "name": "thomas-amar",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "React.js and Node.js Freelancer website.",
   "main": "index.js",
   "scripts": {
@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/ebabel-eu/thomas-amar#readme",
   "devDependencies": {
+    "@node-minify/clean-css": "^4.0.5",
     "@node-minify/core": "^4.0.5",
     "@node-minify/html-minifier": "^4.0.5",
     "http-server": "^0.11.1"

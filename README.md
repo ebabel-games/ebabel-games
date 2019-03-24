@@ -59,7 +59,7 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Use a domain name once I have my BTW number from the tax office.
+- Use ebabel.eu domain name.
 - Turn this one page site into into a progressive web app, see Chrome Lighthouse.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability"
