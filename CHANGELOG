@@ -1,5 +1,9 @@
 # Changelog
 
+# v1.2.2
+- Change the inactive navigation item to black, to improve accessibility (color contrast).
+- Add google analytics to homepage and pictologo privacy policy page.
+
 # v1.2.1
 - Improve layout of the games page by making it more responsive.
 
