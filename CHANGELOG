@@ -1,8 +1,12 @@
 # Changelog
 
+# v1.2.0
+- Add Pictologo privacy policy page.
+- Add old assets files.
+
 # v1.1.0
-- Update homepage to have navigation
-- Add /free-games page
+- Update homepage to have navigation.
+- Add /free-games page.
 
 # v1.0.2
 - Fix build that gets published to Firebase.

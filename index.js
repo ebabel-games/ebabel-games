@@ -25,6 +25,17 @@ minify({
 });
 
 minify({
+  compressor: htmlMinifier,
+  input: 'src/pictologo-privacy-policy/index.html',
+  output: 'public/pictologo-privacy-policy/index.html',
+  options: {
+    removeAttributeQuotes: true,
+    conservativeCollapse: true,
+  },
+  callback: (err, min) => err ? console.error(err) : null,
+});
+
+minify({
   compressor: cleanCSS,
   input: 'src/style.css',
   output: 'public/style.css',
