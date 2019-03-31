@@ -59,10 +59,9 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Use ebabel.eu domain name.
+- Use nano-react-app to make this website into a minimal React app, but [**isomorphic**](https://medium.freecodecamp.org/demystifying-reacts-server-side-render-de335d408fe4)
 - Turn this one page site into into a progressive web app, see Chrome Lighthouse.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability"
-- Turn all this into **isometric** React.js components, but make sure it is just a plain, single HTML file at the end of the process to preserve performance and still getting a single http request.
 - When clicking on Download CV, always download the file instead of opening it in browser? Is that a good idea?
 - Support translating to Dutch based on browser preference
