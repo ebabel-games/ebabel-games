@@ -1,11 +1,11 @@
 {
   "name": "thomas-amar",
-  "version": "1.2.2",
+  "version": "2.0.0",
   "description": "React.js and Node.js Freelancer website.",
   "main": "index.js",
   "scripts": {
-    "start": "npm run build && node node_modules/.bin/http-server public/",
-    "build": "node index.js",
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,10 +22,35 @@
   },
   "homepage": "https://github.com/ebabel-eu/thomas-amar#readme",
   "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "babel-preset-nano-react-app": "^0.1.0",
+    "parcel-bundler": "^1.11.0",
     "@node-minify/clean-css": "^4.0.5",
     "@node-minify/core": "^4.0.5",
     "@node-minify/html-minifier": "^4.0.5",
     "http-server": "^0.11.1"
   },
-  "dependencies": {}
+  "dependencies": {
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1"
+  },
+  "babel": {
+    "presets": [
+      "nano-react-app"
+    ],
+    "plugins": [
+      [
+        "@babel/plugin-proposal-class-properties",
+        {
+          "loose": true
+        }
+      ],
+      [
+        "@babel/plugin-transform-react-jsx",
+        {
+          "pragmaFrag": "React.Fragment"
+        }
+      ]
+    ]
+  }
 }

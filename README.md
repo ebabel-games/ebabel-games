@@ -59,8 +59,8 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Use nano-react-app to make this website into a minimal React app, but [**isomorphic**](https://medium.freecodecamp.org/demystifying-reacts-server-side-render-de335d408fe4)
-- Turn this one page site into into a progressive web app, see Chrome Lighthouse.
+- Use nano-react-app to make this website into a minimal React app
+- Turn this one page site into into a progressive web app, see Chrome Lighthouse (offline included).
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability"
 - When clicking on Download CV, always download the file instead of opening it in browser? Is that a good idea?

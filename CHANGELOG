@@ -1,5 +1,8 @@
 # Changelog
 
+# v2.0.0
+- Implement React.js components.
+
 # v1.2.2
 - Change the inactive navigation item to black, to improve accessibility (color contrast).
 - Add google analytics to homepage and pictologo privacy policy page.
