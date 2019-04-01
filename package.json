@@ -1,5 +1,5 @@
 {
-  "name": "thomas-amar",
+  "name": "ebabel-games",
   "version": "2.0.0",
   "description": "React.js and Node.js Freelancer website.",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ebabel-eu/thomas-amar.git"
+    "url": "git+https://github.com/ebabel-games/ebabel-games.git"
   },
   "keywords": [
     "freelance"
@@ -18,17 +18,13 @@
   "author": "Thomas Amar <hello@ebabel.eu>",
   "license": "GPL-3.0",
   "bugs": {
-    "url": "https://github.com/ebabel-eu/thomas-amar/issues"
+    "url": "https://github.com/ebabel-games/ebabel-games/issues"
   },
-  "homepage": "https://github.com/ebabel-eu/thomas-amar#readme",
+  "homepage": "https://github.com/ebabel-games/ebabel-games#readme",
   "devDependencies": {
     "@babel/core": "^7.2.2",
     "babel-preset-nano-react-app": "^0.1.0",
-    "parcel-bundler": "^1.11.0",
-    "@node-minify/clean-css": "^4.0.5",
-    "@node-minify/core": "^4.0.5",
-    "@node-minify/html-minifier": "^4.0.5",
-    "http-server": "^0.11.1"
+    "parcel-bundler": "^1.11.0"
   },
   "dependencies": {
     "react": "^16.8.1",
