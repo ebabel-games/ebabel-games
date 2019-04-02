@@ -1,8 +1,8 @@
-import React from "react";
+import React from 'react';
 
 export default () => (
-  <header class="header">
-    <div class="container">
+  <header className='header'>
+    <div className='container'>
       <h1>Thomas Amar</h1>
       <h2>React.js &amp; Node.js Freelancer</h2>
     </div>

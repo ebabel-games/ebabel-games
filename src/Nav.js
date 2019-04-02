@@ -1,15 +1,15 @@
-import React from "react";
+import React from 'react';
 
 export default () => (
-  <div class="squares shadow right">
-    <div class="container">
-      <ul class="nav">
+  <div className='squares shadow right'>
+    <div className='container'>
+      <ul className='nav'>
         <li>Home</li>
-        <li><a href="/free-games">Games</a></li>
+        <li><a href='/free-games'>Games</a></li>
       </ul>
-      <span class="blue"></span>
-      <span class="yellow"></span>
-      <span class="orange"></span>
+      <span className='blue'></span>
+      <span className='yellow'></span>
+      <span className='orange'></span>
     </div>
   </div>
 );

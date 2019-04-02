@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
 export default (props) => (
-  <article class="content-block shadow">
+  <article className='content-block shadow'>
     <header>
       <h1>{props.title}</h1>
     </header>
