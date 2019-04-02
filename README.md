@@ -4,10 +4,10 @@ Freelance React.js and Node.js Developer in Amsterdam - Contact Thomas Amar on +
 ## Development
 
 ### Pre-install
-Your local environment relies on Node.js (https://nodejs.org) and Firebase:
+Your local environment relies on Node.js (https://nodejs.org), Firebase, and nano-react-app:
 
 ```
-npm install -g firebase-tools
+npm install -g firebase-tools nano-react-app
 ```
 
 Once installed, you may need to login if it's not already done:

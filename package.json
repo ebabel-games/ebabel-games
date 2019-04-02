@@ -1,6 +1,9 @@
 {
   "name": "ebabel-games",
   "version": "2.0.0",
+  "engines": {
+    "node": ">=11.13.0"
+  },
   "description": "React.js and Node.js Freelancer website.",
   "main": "index.js",
   "scripts": {
