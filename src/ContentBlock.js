@@ -1,10 +1,10 @@
 import React from "react";
 
-export default (title) => (
+export default (props) => (
   <article class="content-block shadow">
     <header>
-      <h1>{title}</h1>
+      <h1>{props.title}</h1>
     </header>
-    {this.props.children}
+    {props.children}
   </article>
 );
