@@ -2,7 +2,7 @@
 
 # v2.0.0
 - Implement React.js components for the homepage.
-- Setup routing to show different pages.
+- Setup [routing](https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e) to show different pages.
 - Implement React.js components for the games page.
 - Implement React.js components for the Pictologo privacy policy page.
 
