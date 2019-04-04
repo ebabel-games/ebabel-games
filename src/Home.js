@@ -4,8 +4,6 @@ import MainHeader from './MainHeader';
 import Nav from './Nav';
 import ContentBlock from './ContentBlock';
 import Footer from './Footer';
-import Telephone from './Telephone';
-import Email from './Email';
 
 export default () => (
   <>

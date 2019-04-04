@@ -44,7 +44,7 @@ a:active {
 .header {
   background-color: #ffd147;
   color: #030a2b;
-  padding: .5em 1em 1.25em;
+  padding: .5em 0 1.25em;
   margin: 0 auto;
   font-weight: 200;
 }
