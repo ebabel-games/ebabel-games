@@ -96,6 +96,10 @@ a:active {
   float: left;
   margin-right: 1em;
 }
+.nav .currentPage {
+  text-decoration: none;
+  color: #030a2b;
+}
 
 /* Main body */
 .content-block {
@@ -116,7 +120,8 @@ a:active {
 }
 
 /* Footer */
-footer {
+footer,
+footer a {
   color: #fafbf4;
 }
 
