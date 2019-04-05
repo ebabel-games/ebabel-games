@@ -75,4 +75,3 @@ Note: for now, this website doesn't have any database.
 - Adapt the newsletter signup css further to better match the site style and pass the audits.
 - Update page header title for history.
 - Improve structure of src folder.
-- Improve Page not found.

@@ -1,7 +1,7 @@
-import React from 'react';
+import React from "react";
 
 export default (props) => (
-  <article className={`content-block shadow ${props.image || ''}`.trim()}>
+  <article className={`content-block shadow ${props.image || ""}`.trim()}>
     {
       props.title ?
       (

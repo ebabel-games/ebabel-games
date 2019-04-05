@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import MainHeader from './MainHeader';
-import Nav from './Nav';
-import ContentBlock from './ContentBlock';
-import Footer from './Footer';
+import MainHeader from "./MainHeader";
+import Nav from "./Nav";
+import ContentBlock from "./ContentBlock";
+import Footer from "./Footer";
 
 export default () => (
   <>
@@ -11,11 +11,11 @@ export default () => (
     <Nav />
     <section className="container">
       <ContentBlock title="Working together">
-        <p>I"m passionate about all things <em>Javascript</em>, both on the front-end and the backend: <em>React.js</em> components, <em>Node.js</em> APIs, socket.io, unit <em>testing</em> and end to end testing with test <em>coverage</em>, webpack, and performance testing.</p>
+        <p>I am passionate about all things <em>Javascript</em>, both on the front-end and the backend: <em>React.js</em> components, <em>Node.js</em> APIs, socket.io, unit <em>testing</em> and end to end testing with test <em>coverage</em>, webpack, and performance testing.</p>
       </ContentBlock>
       <ContentBlock title="Linkedin, CV, and Github">
         <p>
-          <a href="cv.pdf">Download my CV</a>: it"s a summarized version of my work history.
+          <a href="https://ebabel.eu/cv.pdf">Download my CV</a>: it"s a summarized version of my work history.
         </p>
         <p>
           You can find out more details about my <a href="https://www.linkedin.com/in/thomasamar">work experience</a> on Linkedin.

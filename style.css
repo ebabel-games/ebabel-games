@@ -120,6 +120,9 @@ a:active {
 }
 
 /* Footer */
+footer {
+  text-align: center;
+}
 footer,
 footer a {
   color: #fafbf4;

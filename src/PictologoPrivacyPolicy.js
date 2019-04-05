@@ -1,9 +1,9 @@
-import React from 'react';
+import React from "react";
 
-import MainHeader from './MainHeader';
-import Nav from './Nav';
-import ContentBlock from './ContentBlock';
-import Footer from './Footer';
+import MainHeader from "./MainHeader";
+import Nav from "./Nav";
+import ContentBlock from "./ContentBlock";
+import Footer from "./Footer";
 
 export default () => (
   <>

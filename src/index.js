@@ -1,11 +1,11 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import { Route, BrowserRouter as Router, Switch } from 'react-router-dom';
+import React from "react";
+import { hydrate, render } from "react-dom";
+import { Route, BrowserRouter as Router, Switch } from "react-router-dom";
 
-import Home from './Home';
-import FreeGames from './FreeGames';
-import PictologoPrivacyPolicy from './PictologoPrivacyPolicy';
-import NotFound from './NotFound';
+import Home from "./Home";
+import FreeGames from "./FreeGames";
+import PictologoPrivacyPolicy from "./PictologoPrivacyPolicy";
+import NotFound from "./NotFound";
 
 const routing = (
   <Router>
@@ -18,4 +18,10 @@ const routing = (
   </Router>
 );
 
-ReactDOM.render(routing, document.getElementById('root'));
+const rootElement = document.getElementById("root");
+
+if (rootElement.hasChildNodes()) {
+  hydrate(routing, rootElement);
+} else {
+  render(routing, rootElement);
+}
