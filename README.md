@@ -1,5 +1,5 @@
 # [ebabel.eu](https://ebabel.eu)
-React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on [+31 (0)6 21 80 98 99](tel:+31621809899)
+React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 21 80 98 99
 
 ## Development
 
@@ -72,6 +72,7 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
+- Fix the footer: it's correct on the homepage but on the other pages it's missing the link to Pictologo privacy page?
 - Add unit tests with Jest.
 - Turn this site into a progressive web app, offline included (see Chrome Lighthouse audits).
 - Add a block "Favourite quotes":
