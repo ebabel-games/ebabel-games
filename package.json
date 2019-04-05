@@ -1,6 +1,6 @@
 {
   "name": "ebabel-games",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "engines": {
     "node": ">=11.13.0"
   },

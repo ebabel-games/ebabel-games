@@ -1,5 +1,8 @@
 # Changelog
 
+# v2.1.2
+- Fix the footer: it's correct on the homepage but on the other pages it's missing the link to Pictologo privacy page?
+
 # v2.1.1
 - Fix Google Analytics.
 
