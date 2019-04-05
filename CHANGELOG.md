@@ -1,5 +1,8 @@
 # Changelog
 
+# v2.1.1
+- Fix Google Analytics.
+
 # v2.1.0
 - Improve Page not found.
 - The audit score shows the website has gone from [very fast](assets/building/chrome-audit-score-2019-03-24.png)  (html only) to [much slower](assets/building/chrome-audit-score-2019-04-04.png) (react.js) -> look into improving this, possibly with server side react rendering, or even dev environment build that takes React components and makes them 100% static for my static hosting.

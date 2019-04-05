@@ -16,6 +16,12 @@ Once installed, you may need to login if it's not already done:
 firebase login
 ```
 
+If you are in a cloud virtual machine, you might need to run a different login command, and when on another device you have authenticated, paste back into virtual machine the authorozation token:
+
+```
+firebase login --no-localhost
+```
+
 ### Install and develop
 During development, there are dev dependencies that should be installed.
 
@@ -69,9 +75,8 @@ Note: for now, this website doesn't have any database.
 - Add unit tests with Jest.
 - Turn this site into a progressive web app, offline included (see Chrome Lighthouse audits).
 - Add a block "Favourite quotes":
-  - "Functionality is an asset, code is a liability"
-- When clicking on Download CV, always download the file instead of opening it in browser? Is that a good idea?
-- Support translating to Dutch based on browser preference
+  - "Functionality is an asset, code is a liability".
+- Support translating to Dutch and French based on browser preference.
 - Adapt the newsletter signup css further to better match the site style and pass the audits.
 - Update page header title for history.
 - Improve structure of src folder.
