@@ -59,11 +59,13 @@ The Babel configuration lives inside `package.json` and will override an externa
 
 ### Deploy only hosting
 ```
+npm run build
 firebase deploy --only hosting
 ```
 
 ### Deploy both hosting files and database
 ```
+npm run build
 firebase deploy
 ```
 
