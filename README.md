@@ -83,4 +83,3 @@ Note: for now, this website doesn't have any database.
 - Adapt the newsletter signup css further to better match the site style and pass the audits.
 - Update page header title for history.
 - Improve structure of src folder.
-- The audit score shows the website has gone from [very fast](assets/building/chrome-audit-score-2019-03-24.png)  (html only) to [much slower](assets/building/chrome-audit-score-2019-04-04.png) (react.js) -> look into improving this, possibly with server side react rendering, or even dev environment build that takes React components and makes them 100% static for my static hosting.
