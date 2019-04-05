@@ -7,7 +7,7 @@
   "description": "React.js and Node.js Freelancer website.",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html --out-dir build/",
+    "start": "parcel serve index.html --out-dir build/",
     "build": "parcel build index.html --out-dir build/",
     "postbuild": "node postbuild.js",
     "test": "echo \"Error: no test specified\" && exit 1"
