@@ -16,7 +16,10 @@
     "url": "git+https://github.com/ebabel-games/ebabel-games.git"
   },
   "keywords": [
-    "freelance", "amsterdam", "react.js developer", "node.js developer"
+    "freelance",
+    "amsterdam",
+    "react.js developer",
+    "node.js developer"
   ],
   "author": "Thomas Amar <hello@ebabel.eu>",
   "license": "GPL-3.0",
