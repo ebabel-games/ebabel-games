@@ -15,7 +15,7 @@ export default () => (
       </ContentBlock>
       <ContentBlock title="Linkedin, CV, and Github">
         <p>
-          <a href="https://ebabel.eu/cv.pdf">Download my CV</a>: it"s a summarized version of my work history.
+          <a href="https://ebabel.eu/cv.pdf?forcedownload=1" download target="_blank">Download my CV</a>: it"s a summarized version of my work history.
         </p>
         <p>
           You can find out more details about my <a href="https://www.linkedin.com/in/thomasamar">work experience</a> on Linkedin.

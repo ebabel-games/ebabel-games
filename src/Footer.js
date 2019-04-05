@@ -11,8 +11,6 @@ export default () => (
     <p>
       <abbr title="Zelfstandige Zonder Personeel" lang="nl-nl">ZZP</abbr> Thomas Amar &bull; <abbr title="Kamer van Koophandel" lang="nl-nl">KvK</abbr> <span title="Amsterdam Chamber of Commerce registration number">74269100</span> &bull; <abbr title="Belasting over de Toegevoegde Waarde" lang="nl-nl">BTW</abbr> <span title="Value Added Tax (VAT) number">NL784074070B02</span>
     </p>
-    <p>
-      <a href="/pictologo-privacy-policy">Pictologo Privacy Policy</a>
-    </p>
+    <p><small><a href="/pictologo-privacy-policy">Pictologo Privacy Policy</a></small></p>
   </footer>
 );
