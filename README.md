@@ -1,5 +1,5 @@
 # [ebabel.eu](https://ebabel.eu)
-React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 21 80 98 99
+React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on [+31 (0)6 21 80 98 99](tel:+31621809899)
 
 ## Development
 
