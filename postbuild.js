@@ -1,8 +1,14 @@
 const fs = require('fs');
 const { exec } = require('child_process');
 
-const path = './build/200.html';
+const paths = [
+  './build/200.html',
+];
 
-fs.unlink(path, () => {
-  exec('react-snap');
+paths.map((path, index) => {
+  fs.unlink(path, () => {
+    if (index === paths.length - 1) {
+      exec('react-snap');
+    }
+  });
 });
