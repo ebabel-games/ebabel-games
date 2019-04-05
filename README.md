@@ -1,5 +1,5 @@
-# ebabel.eu
-Freelance React.js and Node.js Developer in Amsterdam - Contact Thomas Amar on +31 (0)6 21 80 98 99
+# [ebabel.eu](https://ebabel.eu)
+React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 21 80 98 99
 
 ## Development
 
@@ -38,14 +38,6 @@ Or edit the `start` script directly:
 
 ```
 parcel index.html -p 3000
-```
-
-### Adding styles
-
-You can use CSS files with simple ES2015 `import` statements in your Javascript:
-
-```js
-import "./index.css";
 ```
 
 ### Babel transforms
