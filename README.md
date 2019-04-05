@@ -72,10 +72,11 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Use nano-react-app to make this website into a minimal React app.
 - Add unit tests with Jest.
 - Turn this site into a progressive web app, offline included (see Chrome Lighthouse audits).
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability"
 - When clicking on Download CV, always download the file instead of opening it in browser? Is that a good idea?
 - Support translating to Dutch based on browser preference
+- Adapt the newsletter signup css further to better match the site style and pass the audits.
+- Update page header title for history.

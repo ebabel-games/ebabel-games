@@ -1,6 +1,7 @@
 # Changelog
 
 # v2.0.0
+- Use nano-react-app to make this website into a minimal React app.
 - Implement React.js components for the homepage.
 - Setup [routing](https://medium.com/the-andela-way/understanding-the-fundamentals-of-routing-in-react-b29f806b157e) to show different pages.
 - Implement React.js components for the games page.

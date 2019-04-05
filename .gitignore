@@ -65,4 +65,8 @@ typings/
 
 # Generated files
 .cache
-dist
+dist/*.html
+dist/*.js
+dist/*.css
+dist/*.map
+dist/*.png
