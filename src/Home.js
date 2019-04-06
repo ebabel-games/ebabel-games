@@ -10,7 +10,7 @@ import Footer from "./Footer";
 export default () => (
   <>
     <Helmet>
-      <title>Home</title>
+      <title>React.js Freelancer</title>
     </Helmet>
     <MainHeader title="Thomas Amar" subtitle="React.js & Node.js Freelancer" />
     <Nav />
