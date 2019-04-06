@@ -1,5 +1,12 @@
 # Changelog
 
+# v2.2.0
+- Add xml sitemap for [Google search console](https://search.google.com/search-console/).
+- Update credits in humans.txt for the game developed at Global Game Jam 2019 in Utrecht.
+- Update content of footer: shorter pictologo link, non breaking spaces between label and text.
+- Update homepage text.
+- Adapt the newsletter signup css further to better match the site style and pass the audits.
+
 # v2.1.2
 - Fix the footer: it's correct on the homepage but on the other pages it's missing the link to Pictologo privacy page?
 

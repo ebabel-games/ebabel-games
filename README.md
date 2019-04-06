@@ -74,9 +74,8 @@ Note: for now, this website doesn't have any database.
 ### todo tasks
 - Update page header title for history.
 - Add unit tests with Jest.
-- Turn this site into a progressive web app (with parcel), offline included (see Chrome Lighthouse audits).
+- Turn this site into a progressive web app (with parcel), offline included - see Chrome Lighthouse audits and Google [workbox](https://developers.google.com/web/tools/workbox/).
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
-- Adapt the newsletter signup css further to better match the site style and pass the audits.
 - Improve structure of src folder.

@@ -15,7 +15,7 @@ export default () => (
       </ContentBlock>
       <ContentBlock title="Linkedin, CV, and Github">
         <p>
-          <a href="https://ebabel.eu/cv.pdf?forcedownload=1" download target="_blank">Download my CV</a>: it"s a summarized version of my work history.
+          <a href="https://ebabel.eu/cv.pdf?forcedownload=1" download target="_blank">Download my CV</a>: it's a summarized version of my work history.
         </p>
         <p>
           You can find out more details about my <a href="https://www.linkedin.com/in/thomasamar">work experience</a> on Linkedin.
@@ -24,7 +24,7 @@ export default () => (
           My <a href="https://github.com/ebabel-eu?tab=repositories">personal projects</a> are published on Github.
         </p>
         <p>
-          I also programmed <a href="https://github.com/ebabel-games">games</a> under a separate Github and you can <a href="/free-games">play</a> some of them.
+          You can <a href="/free-games">play games</a> I programmed; their <a href="https://github.com/ebabel-games">source code</a> is published on a Github team where I am hoping other developers will join me.
         </p>
       </ContentBlock>
     </section>

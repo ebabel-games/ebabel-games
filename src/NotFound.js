@@ -13,7 +13,7 @@ export default () => (
       <ContentBlock title="Sorry, page cannot be found">
         <p>Thanks for visiting my site, but the page you tried to browse cannot be found.</p>
         <p>Would you like to see the <a href="/">homepage</a> instead?</p>
-        <p>If you think this page should exist, feel free to <a href="mailto:hello@ebabel.eu">drop me an e-mail</a>.</p>
+        <p>If you think this page should exist, feel free to <a href="mailto:hello@ebabel.eu">drop me an email</a>.</p>
       </ContentBlock>
     </section>
     <Footer />

@@ -3,13 +3,20 @@
 
 # TEAM
 
-    Thomas Amar -- Developer -- @ebabel
+  Thomas Amar -- Developer -- @ebabel -- hello@ebabel.eu
+
+# GLOBAL GAME JAM 2019 GAME
+
+  Gökçe Özaydın -- Musician
+  Julia Emmink -- Designer -- https://juliaemmink.wixsite.com/portfolio
+  Matt -- Graphic Artist
+  Thomas Amar -- Developer
 
 # THANKS
 
-    Facebook for developing React and offering it to all developers for free.
+  Facebook for developing React and offering it to all developers for free.
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
-    React.js
+  CSS3, HTML5
+  React.js
