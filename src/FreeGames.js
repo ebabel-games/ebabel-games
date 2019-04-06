@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 
 import MainHeader from './MainHeader';
 import Nav from './Nav';
@@ -8,6 +9,9 @@ import Footer from './Footer';
 
 export default () => (
   <>
+    <Helmet>
+      <title>Free Games</title>
+    </Helmet>
     <MainHeader title="Free games" subtitle="HTML5 games I developed" />
     <Nav />
     <section className="container games">

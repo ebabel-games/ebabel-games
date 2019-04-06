@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 
 import MainHeader from "./MainHeader";
 import Nav from "./Nav";
@@ -7,6 +8,9 @@ import Footer from "./Footer";
 
 export default () => (
   <>
+    <Helmet>
+      <title>Home</title>
+    </Helmet>
     <MainHeader title="Thomas Amar" subtitle="React.js & Node.js Freelancer" />
     <Nav />
     <section className="container">

@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from 'react-helmet';
 
 import MainHeader from "./MainHeader";
 import Nav from "./Nav";
@@ -7,6 +8,9 @@ import Footer from "./Footer";
 
 export default () => (
   <>
+    <Helmet>
+      <title>Pictologo</title>
+    </Helmet>
     <MainHeader title="Pictologo" subtitle="Privacy Policy" />
     <Nav />
     <section className="container">
