@@ -1,5 +1,8 @@
 # Changelog
 
+# v2.3.0
+- Update page header title for history.
+
 # v2.2.0
 - Add xml sitemap for [Google search console](https://search.google.com/search-console/).
 - Update credits in humans.txt for the game developed at Global Game Jam 2019 in Utrecht.
