@@ -5,7 +5,9 @@
 - Update credits in humans.txt for the game developed at Global Game Jam 2019 in Utrecht.
 - Update content of footer: shorter pictologo link, non breaking spaces between label and text.
 - Update homepage text.
-- Adapt the newsletter signup css further to better match the site style and pass the audits.
+- Adapt the newsletter signup css further to better match the site style and pass the accessibility audits (color contrast).
+- Simplify postbuild.js since only one file is deleted (200.html).
+- Output errors to the Terminal console when something goes wrong in postbuild.js
 
 # v2.1.2
 - Fix the footer: it's correct on the homepage but on the other pages it's missing the link to Pictologo privacy page?
