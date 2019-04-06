@@ -22,6 +22,9 @@ em {
   font-style: normal;
   font-weight: 600;
 }
+abbr {
+  cursor: help;
+}
 .container {
   max-width: 600px;
   margin: 0 auto;
