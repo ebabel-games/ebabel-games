@@ -9,7 +9,7 @@ export default () => (
   <div id="mc_embed_signup">
     <form action="//ebabel.us14.list-manage.com/subscribe/post?u=6b5203159a1a8d45b38971927&amp;id=11dbefc3c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
       <div id="mc_embed_signup_scroll">
-        <label htmlFor="mce-EMAIL">Get invitation-only games and free offers</label>
+        <label htmlFor="mce-EMAIL">Get invitation-only games and news.</label>
         <input type="email" defaultValue="" name="EMAIL" className="email" id="mce-EMAIL" placeholder="Your email" required />
         <div style={hidden} aria-hidden="true">
           <input type="text" name="b_6b5203159a1a8d45b38971927_11dbefc3c9" tabIndex="-1" defaultValue="" />
