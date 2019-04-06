@@ -7,10 +7,10 @@
 
 # GLOBAL GAME JAM 2019 GAME
 
-  Gökçe Özaydın -- Musician
+  Gökçe Özaydın -- Musician -- https://superdaze.bandcamp.com
   Julia Emmink -- Designer -- https://juliaemmink.wixsite.com/portfolio
-  Mart -- Graphic Artist
-  Thomas Amar -- Developer
+  Mart van der Hoek -- Graphic Artist
+  Thomas Amar -- Developer -- https://ebabel.eu
 
 # THANKS
 
