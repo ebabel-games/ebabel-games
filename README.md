@@ -72,6 +72,7 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
+- Rewrite code in Typescript.
 - Update page header title for history.
 - Add unit tests with Jest.
 - Turn this site into a progressive web app (with parcel), offline included - see Chrome Lighthouse audits and Google [workbox](https://developers.google.com/web/tools/workbox/).
