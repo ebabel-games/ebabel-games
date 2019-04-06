@@ -2,6 +2,8 @@
 
 # v2.3.0
 - Update page header title for history.
+- Fix link in footer to use NavLink instead of simple anchor tag.
+- Change CV filename to react-freelancer-cv.pdf instead of just cv.pdf.
 
 # v2.2.0
 - Add xml sitemap for [Google search console](https://search.google.com/search-console/).
