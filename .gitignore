@@ -64,6 +64,7 @@ typings/
 .firebase
 
 # Generated files
+._*.png
 .cache
 build/*.html
 build/**/*.html
