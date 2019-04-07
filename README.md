@@ -57,4 +57,4 @@ Note: for now, this website doesn't have any database.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
-- Improve structure of src folder.
+- Fix html output reloading and not giving a "current page" style in Nav component.

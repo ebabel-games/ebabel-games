@@ -2,6 +2,7 @@
 
 # v3.0.0
 - Switch the build process to [Gatsby.js](https://www.gatsbyjs.org) because Gatsby offers more options than react-snap.
+- Improve structure of src folder.
 
 # v2.3.0
 - Update page header title for history.
