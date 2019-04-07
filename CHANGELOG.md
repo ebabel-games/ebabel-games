@@ -1,5 +1,8 @@
 # Changelog
 
+# v3.0.1
+- Fix javascript error in navigation because attribute exact is no longer needed with Gatsby.
+
 # v3.0.0
 - Switch the build process to [Gatsby.js](https://www.gatsbyjs.org) because Gatsby offers more options than react-snap.
 - Improve structure of src folder.
