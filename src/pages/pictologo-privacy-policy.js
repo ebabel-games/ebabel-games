@@ -1,10 +1,10 @@
 import React from "react";
 import { Helmet } from 'react-helmet';
 
-import MainHeader from "./MainHeader";
-import Nav from "./Nav";
-import ContentBlock from "./ContentBlock";
-import Footer from "./Footer";
+import MainHeader from "../components/main-header";
+import Nav from "../components/nav";
+import ContentBlock from "../components/content-block";
+import Footer from "../components/footer";
 
 export default () => (
   <>

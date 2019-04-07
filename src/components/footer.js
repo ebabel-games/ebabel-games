@@ -1,8 +1,8 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-import Telephone from "./Telephone";
-import Email from "./Email";
+import Telephone from "./telephone";
+import Email from "./email";
 
 export default () => (
   <footer className="container">
