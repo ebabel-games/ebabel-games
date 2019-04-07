@@ -53,9 +53,10 @@ Note: for now, this website doesn't have any database.
 ### todo tasks
 - Rewrite code in Typescript.
 - Add unit tests with Jest.
-- Turn this site into a progressive web app (with parcel), offline included - see Chrome Lighthouse audits and Google [workbox](https://developers.google.com/web/tools/workbox/). Also see [gatsby config for offline](./gatsby-config.js) - also update the icons to use HTML5 shield instead of Gatsby icon.
+- Turn this site into a progressive web app (with parcel), offline included - see Chrome Lighthouse audits and Google [workbox](https://developers.google.com/web/tools/workbox/). Also see [gatsby config for offline](./gatsby-config.js).
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
 - Fix html output reloading and not giving a "current page" style in Nav component.
 - Update sitemap.xml with more details.
+- Update icon to use HTML5 shield (also in favicon) instead of Gatsby icon.
