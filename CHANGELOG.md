@@ -1,7 +1,7 @@
 # Changelog
 
 # v2.3.1
-- Fix build script with a [Promise](https://medium.com/@ajmeyghani/writing-asynchronous-programs-in-javascript-9a292570b2a6) to delete all html local files and make sure new ones are generated.
+- Switch the build process to [Gatsby.js](https://www.gatsbyjs.org) because Gatsby offers more options than react-snap.
 
 # v2.3.0
 - Update page header title for history.
