@@ -1,6 +1,6 @@
 {
   "name": "ebabel-games",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "engines": {
     "node": ">=11.13.0"
   },
@@ -36,7 +36,7 @@
     "react-snap": "^1.23.0"
   },
   "dependencies": {
-    "react": "^16.8.1",
+    "react": "^16.8.6",
     "react-dom": "^16.8.1",
     "react-router-dom": "^5.0.0"
   },

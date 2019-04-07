@@ -1,5 +1,8 @@
 # Changelog
 
+# v2.3.1
+- Fix build script with a Promise to delete all html local files and make sure new ones are generated.
+
 # v2.3.0
 - Update page header title for history.
 - Fix link in footer to use NavLink instead of simple anchor tag.
