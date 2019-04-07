@@ -58,3 +58,4 @@ Note: for now, this website doesn't have any database.
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
 - Fix html output reloading and not giving a "current page" style in Nav component.
+- Update sitemap.xml with more details.
