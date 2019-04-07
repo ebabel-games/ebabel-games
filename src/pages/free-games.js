@@ -1,28 +1,29 @@
 import React from 'react';
-import { Helmet } from 'react-helmet';
 
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import MainHeader from '../components/main-header';
 import Nav from '../components/nav';
 import ContentBlock from '../components/content-block';
 import NewsletterSignup from '../components/newsletter-signup';
 import Footer from '..//components/footer';
 
-export default () => (
-  <>
-    <Helmet>
-      <title>Free Games</title>
-    </Helmet>
+const FreeGames = () => (
+  <Layout>
+    <SEO title="Free Games" keywords={[`HTML5 games`, `freelance developer`]} />
     <MainHeader title="Free games" subtitle="HTML5 games I developed" />
+
     <Nav />
+
     <section className="container games">
       <ContentBlock image="nov-2018">
         <h1><a href="https://nov2018-game.firebaseapp.com/">Nov 2018</a></h1>
       </ContentBlock>
-      
+
       <ContentBlock image="guess-my-number">
         <h1><a href="https://which-number.firebaseapp.com/">Guess my number</a></h1>
       </ContentBlock>
-      
+
       <ContentBlock image="capture-aliens">
         <h1><a href="https://alien-capture.firebaseapp.com/">Capture Aliens</a></h1>
       </ContentBlock>
@@ -46,5 +47,7 @@ export default () => (
     </section>
 
     <Footer />
-  </>
+  </Layout>
 );
+
+export default FreeGames;

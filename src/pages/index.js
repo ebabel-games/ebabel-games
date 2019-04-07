@@ -12,9 +12,12 @@ const IndexPage = () => (
   <Layout>
     <SEO title="React.js Freelancer" keywords={[`react.js freelancer`, `node.js freelancer`, `amsterdam freelancer`, `front-end freelancer`]} />
     <MainHeader title="Thomas Amar" subtitle="React.js & Node.js Freelancer" />
+
     <Nav />
+
     <section className="container">
       <ContentBlock title="Working together">
+        <p>Hello, I'm Thomas.</p>
         <p>I am passionate about all things <em>Javascript</em>, both on the front-end and the backend: <em>React.js</em> components, <em>Node.js</em> APIs, socket.io, unit <em>testing</em> and end to end testing with test <em>coverage</em>, webpack, and performance testing.</p>
       </ContentBlock>
       <ContentBlock title="Linkedin, CV, and Github">
@@ -32,6 +35,7 @@ const IndexPage = () => (
         </p>
       </ContentBlock>
     </section>
+
     <Footer />
   </Layout>
 );
