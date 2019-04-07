@@ -4,10 +4,10 @@ React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 2
 ## Development
 
 ### Pre-install
-Your local environment relies on Node.js (https://nodejs.org), Firebase, and nano-react-app:
+Your local environment relies on [Node.js](https://nodejs.org), [Firebase](https://firebase.google.com/), and [Gatsby.js](https://www.gatsbyjs.org):
 
 ```
-npm install -g firebase-tools nano-react-app
+npm install -g firebase-tools gatsby-cli
 ```
 
 Once installed, you may need to login if it's not already done:
@@ -29,29 +29,8 @@ During development, there are dev dependencies that should be installed.
 npm install
 ```
 
-- `npm start` — This will spawn a development server with a default port of `1234`.
-- `npm run build` — This will output a production build in the `build` directory.
-
-### Custom port
-
-You can use the `-p` flag to specify a port for development. To do this, you can either run `npm start` with an additional flag:
-
-```
-npm start -- -p 3000
-```
-
-Or edit the `start` script directly:
-
-```
-parcel index.html -p 3000
-```
-
-### Babel transforms
-
-The Babel preset [babel-preset-nano-react-app](https://github.com/adrianmcli/babel-preset-nano-react-app) and a small amount of configuration is used to support the same transforms that Create React App supports.
-
-The Babel configuration lives inside `package.json` and will override an external `.babelrc` file, so if you want to use `.babelrc` remember to delete the `babel` property inside `package.json`.
-
+- `npm start` — This will spawn a development server with a default port of `8000`.
+- `npm run build` — This will output a production build in the `public` directory.
 
 ## Deployment
 

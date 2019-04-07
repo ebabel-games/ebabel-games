@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "gatsby";
 import { Helmet } from 'react-helmet';
 
 import MainHeader from "../components/main-header";
@@ -29,7 +29,7 @@ export default () => (
           My <a href="https://github.com/ebabel-eu?tab=repositories">personal projects</a> are published on Github.
         </p>
         <p>
-          You can <NavLink to="/free-games">play games</NavLink> I programmed; their <a href="https://github.com/ebabel-games">source code</a> is published on a Github team where I am hoping other developers will join me.
+          You can <Link to="/free-games">play games</Link> I programmed; their <a href="https://github.com/ebabel-games">source code</a> is published on a Github team where I am hoping other developers will join me.
         </p>
       </ContentBlock>
     </section>

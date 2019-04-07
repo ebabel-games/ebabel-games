@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "gatsby";
 
 import Telephone from "./telephone";
 import Email from "./email";
 
 export default () => (
   <footer className="container">
-    <p><NavLink to="/pictologo-privacy-policy"><small>Pictologo</small></NavLink></p>
+    <p><Link to="/pictologo-privacy-policy"><small>Pictologo</small></Link></p>
     <p>
       Tel:&nbsp;<Telephone /> &bull; Email:&nbsp;<Email />
     </p>

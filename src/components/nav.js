@@ -1,12 +1,12 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link } from "gatsby";
 
 export default () => (
   <div className="squares shadow right">
     <div className="container">
       <ul className="nav">
-        <li><NavLink exact to="/" activeClassName="currentPage">Home</NavLink></li>
-        <li><NavLink to="/free-games" activeClassName="currentPage">Games</NavLink></li>
+        <li><Link exact to="/" activeClassName="currentPage">Home</Link></li>
+        <li><Link to="/free-games" activeClassName="currentPage">Games</Link></li>
       </ul>
       <span className="blue"></span>
       <span className="yellow"></span>
