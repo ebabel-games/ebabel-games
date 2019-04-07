@@ -1,6 +1,6 @@
 # Changelog
 
-# v2.3.1
+# v3.0.0
 - Switch the build process to [Gatsby.js](https://www.gatsbyjs.org) because Gatsby offers more options than react-snap.
 
 # v2.3.0

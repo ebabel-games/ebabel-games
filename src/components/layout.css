@@ -186,19 +186,19 @@ footer a {
   color: #fafbf4;
 }
 .games .content-block.nov-2018 {
-  background-image: url(images/nov-2018-logo.png);
+  background-image: url(../images/nov-2018-logo.png);
 }
 .games .content-block.guess-my-number {
-  background-image: url(images/screenshot-guess-my-number.png);
+  background-image: url(../images/screenshot-guess-my-number.png);
   background-position: 0px -15px;
 }
 .games .content-block.capture-aliens {
-  background-image: url(images/capture-aliens-logo.png);
+  background-image: url(../images/capture-aliens-logo.png);
   background-size: 250px;
   background-position: 16px 87px;
 }
 .games .content-block.the-questionables {
-  background-image: url(images/the-questionables.png);
+  background-image: url(../images/the-questionables.png);
   background-position: 0 20px;
 }
 

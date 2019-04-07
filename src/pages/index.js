@@ -1,17 +1,16 @@
 import React from "react";
 import { Link } from "gatsby";
-import { Helmet } from 'react-helmet';
 
+import Layout from "../components/layout";
+import SEO from "../components/seo";
 import MainHeader from "../components/main-header";
 import Nav from "../components/nav";
 import ContentBlock from "../components/content-block";
-import Footer from "../components/footer";
+import Footer from '../components/footer';
 
-export default () => (
-  <>
-    <Helmet>
-      <title>React.js Freelancer</title>
-    </Helmet>
+const IndexPage = () => (
+  <Layout>
+    <SEO title="React.js Freelancer" keywords={[`react.js freelancer`, `node.js freelancer`, `amsterdam freelancer`, `front-end freelancer`]} />
     <MainHeader title="Thomas Amar" subtitle="React.js & Node.js Freelancer" />
     <Nav />
     <section className="container">
@@ -34,5 +33,7 @@ export default () => (
       </ContentBlock>
     </section>
     <Footer />
-  </>
+  </Layout>
 );
+
+export default IndexPage;
