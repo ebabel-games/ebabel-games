@@ -51,6 +51,7 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
+- In offline mode, the cv is not available. Fix this.
 - Rewrite code in Typescript.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
