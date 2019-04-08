@@ -67,3 +67,4 @@ typings/
 ._*.png
 .cache
 public/
+__snapshots__
