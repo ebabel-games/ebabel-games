@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => (
+const MainHeader = (props) => (
   <header className="header">
     <div className="container">
       <h1>{props.title}</h1>
@@ -8,3 +8,5 @@ export default (props) => (
     </div>
   </header>
 );
+
+export default MainHeader;

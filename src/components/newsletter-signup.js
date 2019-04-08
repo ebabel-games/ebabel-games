@@ -5,7 +5,7 @@ const hidden = {
   left: "-5000px",
 };
 
-export default () => (
+const NewsletterSignup = () => (
   <div id="mc_embed_signup">
     <form action="//ebabel.us14.list-manage.com/subscribe/post?u=6b5203159a1a8d45b38971927&amp;id=11dbefc3c9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank" noValidate>
       <div id="mc_embed_signup_scroll">
@@ -23,3 +23,5 @@ export default () => (
     </form>
   </div>
 );
+
+export default NewsletterSignup;

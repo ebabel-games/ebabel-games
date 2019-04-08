@@ -8,7 +8,7 @@ import Nav from "../components/nav";
 import ContentBlock from "../components/content-block";
 import Footer from '../components/footer';
 
-const IndexPage = () => (
+const Index = () => (
   <Layout>
     <SEO title="React.js Freelancer" keywords={[`react.js freelancer`, `node.js freelancer`, `amsterdam freelancer`, `front-end freelancer`]} />
     <MainHeader title="Thomas Amar" subtitle="React.js & Node.js Freelancer" />
@@ -40,4 +40,4 @@ const IndexPage = () => (
   </Layout>
 );
 
-export default IndexPage;
+export default Index;

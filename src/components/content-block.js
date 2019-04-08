@@ -1,6 +1,6 @@
 import React from "react";
 
-export default (props) => (
+const ContentBlock = (props) => (
   <article className={`content-block shadow ${props.image || ""}`.trim()}>
     {
       props.title ?
@@ -13,3 +13,5 @@ export default (props) => (
     {props.children}
   </article>
 );
+
+export default ContentBlock;

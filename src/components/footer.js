@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 import Telephone from "./telephone";
 import Email from "./email";
 
-export default () => (
+const Footer = () => (
   <footer className="container">
     <p><Link to="/pictologo-privacy-policy"><small>Pictologo</small></Link></p>
     <p>
@@ -15,3 +15,5 @@ export default () => (
     </p>
   </footer>
 );
+
+export default Footer;
