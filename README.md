@@ -53,7 +53,6 @@ Note: for now, this website doesn't have any database.
 ### todo tasks
 - Rewrite code in Typescript.
 - Add unit tests with Jest.
-- Turn this site into a progressive web app (with parcel), offline included - see Chrome Lighthouse audits and Google [workbox](https://developers.google.com/web/tools/workbox/). Also see [gatsby config for offline](./gatsby-config.js).
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.

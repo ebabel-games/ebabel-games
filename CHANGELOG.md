@@ -1,5 +1,8 @@
 # Changelog
 
+# v3.2.0
+- Implement PWA (Progressive Web App) offline included - see Chrome Lighthouse audits and [gatsby config for offline](./gatsby-config.js).
+
 # v3.1.0
 - Make the sitemap dynamic so that everytime a production build is generated in public, the xml sitemap lists all the correct pages.
 
