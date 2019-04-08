@@ -3,6 +3,7 @@ module.exports = {
     title: `Thomas Amar`,
     description: `React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 21 80 98 99`,
     author: `@ebabel`,
+    siteUrl: `https://ebabel.eu`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -27,6 +28,7 @@ module.exports = {
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
       },
     },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
