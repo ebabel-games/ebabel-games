@@ -60,3 +60,5 @@ Note: for now, this website doesn't have any database.
 - Page not found is no longer used - check how Gatsby handles routing and redirecting to 404.
 - Add a privacy policy.
 - Add a download link for my sample contract and explain I can also work with the client's contract if they don't want to use mine.
+- Add JSDoc.
+- Add test coverage reporting (istanbul?)
