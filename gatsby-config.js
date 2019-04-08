@@ -19,13 +19,14 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `eBabel`,
+        short_name: `ebabel`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        background_color: `#4a47ff`,
+        theme_color: `#ffd147`,
+        display: `standalone`,
+        icon: `src/images/html5-icon.png`, // This path is relative to the root of the site.
+        crossOrigin: `use-credentials`,
       },
     },
     `gatsby-plugin-sitemap`,
