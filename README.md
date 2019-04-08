@@ -4,7 +4,7 @@ React.js and Node.js Freelancer in Amsterdam - Contact Thomas Amar on +31 (0)6 2
 ## Development
 
 ### Pre-install
-Your local environment relies on [Node.js](https://nodejs.org), [Firebase](https://firebase.google.com/), and [Gatsby.js](https://www.gatsbyjs.org):
+Your local environment relies on [Node.js](https://nodejs.org), [Firebase](https://firebase.google.com/), and [Gatsby.js](https://www.gatsbyjs.org) (you may need to `sudo` on your machine):
 
 ```
 npm install -g firebase-tools gatsby-cli
