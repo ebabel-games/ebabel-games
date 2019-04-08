@@ -58,3 +58,5 @@ Note: for now, this website doesn't have any database.
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
 - Fix html output reloading and not giving a "current page" style in Nav component.
 - Page not found is no longer used - check how Gatsby handles routing and redirecting to 404.
+- Add a privacy policy.
+- Add a download link for my sample contract and explain I can also work with the client's contract if they don't want to use mine.
