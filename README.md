@@ -52,7 +52,6 @@ Note: for now, this website doesn't have any database.
 
 ### todo tasks
 - Rewrite code in Typescript.
-- Add unit tests with Jest.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
 - Support translating to Dutch and French based on browser preference. Add links to switch languages.
