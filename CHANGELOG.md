@@ -1,5 +1,8 @@
 # Changelog
 
+# v3.1.0
+- Make the sitemap dynamic so that everytime a production build is generated in public, the xml sitemap lists all the correct pages.
+
 # v3.0.1
 - Fix javascript error in navigation because attribute exact is no longer needed with Gatsby.
 
