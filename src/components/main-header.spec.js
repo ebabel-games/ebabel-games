@@ -13,6 +13,7 @@ describe("MainHeader", () => {
 
   it("renders correctly", () => {
     expect(tree).toMatchSnapshot();
+    expect(tree.type).toBe('header');
   });
   
   it("renders a div with the expected css class", () => {
