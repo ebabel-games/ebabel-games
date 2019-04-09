@@ -21,4 +21,10 @@ describe("ContentBlock", () => {
     const tree = renderer.create(<ContentBlock image="sample-css-image-reference" />).toJSON();
     expect(tree.props.className).toBe("content-block shadow sample-css-image-reference");
   });
+  
+  it("can insert custom children element with expected content", () => {
+    const tree = renderer.create(<ContentBlock><small>This is a custom element</small></ContentBlock>).toJSON();
+    expect(tree.children[0].type).toBe("small");
+    expect(tree.children[0].children[0]).toBe("This is a custom element");
+  });
 });
