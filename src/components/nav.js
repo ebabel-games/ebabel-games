@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 
 const Nav = () => (
-  <div className="squares shadow right">
+  <nav className="squares shadow right">
     <div className="container">
       <ul className="nav">
         <li><Link to="/" activeClassName="currentPage">Home</Link></li>
@@ -12,7 +12,7 @@ const Nav = () => (
       <span className="yellow"></span>
       <span className="orange"></span>
     </div>
-  </div>
+  </nav>
 );
 
 export default Nav;
