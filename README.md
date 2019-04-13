@@ -62,3 +62,4 @@ Note: for now, this website doesn't have any database.
 - Add a download link for my sample contract and explain I can also work with the client's contract if they don't want to use mine.
 - Add JSDoc.
 - End to end testing with [Cypress](https://www.gatsbyjs.org/docs/end-to-end-testing/)
+- On Games page, add Pictologo
