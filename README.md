@@ -63,3 +63,6 @@ Note: for now, this website doesn't have any database.
 - Add JSDoc.
 - End to end testing with [Cypress](https://www.gatsbyjs.org/docs/end-to-end-testing/)
 - Feedback from Alen: free app on the store would be better, people don't want to pay for apps.
+- Fix: Layout component is difficult to unit test.
+- Write more unit tests for NewsletterSignup component.
+- Decide whether I want to write unit tests for Pages or if that's not so useful.
