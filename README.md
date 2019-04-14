@@ -66,3 +66,5 @@ Note: for now, this website doesn't have any database.
 - Fix: Layout component is difficult to unit test.
 - Write more unit tests for NewsletterSignup component.
 - Decide whether I want to write unit tests for Pages or if that's not so useful.
+- Rethink the color scheme, Eve isn't keen on the colors, especially the background blue.
+
