@@ -2,7 +2,9 @@
 
 # v3.3.0
 - Add unit tests with [Jest and Gatsby](https://www.gatsbyjs.org/docs/unit-testing/).
-- Add test coverage reporting (istanbul)
+- Add test coverage reporting (istanbul).
+- Remove little squares, they are confusing (Eve advice), and simply the css styling.
+- On Games page, add link to Pictologo Android app.
 
 # v3.2.0
 - Implement PWA (Progressive Web App) offline included - see Chrome Lighthouse audits and [gatsby config for offline](./gatsby-config.js).

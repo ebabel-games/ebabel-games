@@ -58,40 +58,14 @@ a:active {
   line-height: 1.25em;
 }
 
-/* Header and body separator */
-.squares {
+/* Navigation */
+.nav {
   background-color: #fafbf4;
   height: 1.5em;
   padding: .5em;
   margin: 0 0 1.5em;
 }
-.squares.left {
-  text-align: left;
-}
-.squares.right {
-  text-align: right;
-}
-.squares span {
-  display: inline-block;
-  width: 1.5em;
-  height: 1.5em;
-  margin: 0 0 0 .5em;
-  -webkit-box-shadow: 1px 1px 2px 0 rgba(3, 10, 43, 1);
-  -moz-box-shadow: 1px 1px 2px 0 rgba(3, 10, 43, 1);
-  box-shadow: 1px 1px 2px 0 rgba(3, 10, 43, 1);
-}
-.squares .blue {
-  background-color: #4a47ff;
-}
-.squares .yellow {
-  background-color: #ffd147;
-}
-.squares .orange {
-  background-color: #ff7547;
-}
-
-/* Navigation */
-.nav {
+.nav ul {
   margin: 0;
   padding: 0;
 }
@@ -200,6 +174,9 @@ footer a {
 .games .content-block.the-questionables {
   background-image: url(../images/the-questionables.png);
   background-position: 0 20px;
+}
+.games .content-block.pictologo {
+  background-image: url(../images/pictologo-logo.webp);
 }
 
 @media (max-width: 630px) {

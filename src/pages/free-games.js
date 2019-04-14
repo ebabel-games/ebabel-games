@@ -31,6 +31,10 @@ const FreeGames = () => (
       <ContentBlock image="the-questionables">
         <h1><a href="https://the-questionables.firebaseapp.com/">Global Game Jam 2019</a></h1>
       </ContentBlock>
+
+      <ContentBlock image="pictologo">
+        <h1><a href="https://play.google.com/store/apps/details?id=nl.websitekrijgen.androidgames.palabras.nl">Pictologo App (&euro;0.59)</a></h1>
+      </ContentBlock>
     </section>
 
     <section className="container">
