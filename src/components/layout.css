@@ -176,7 +176,7 @@ footer a {
   background-position: 0 20px;
 }
 .games .content-block.pictologo {
-  background-image: url(../images/pictologo-logo.webp);
+  background-image: url(../images/pictologo-logo.png);
 }
 
 @media (max-width: 630px) {

@@ -1,5 +1,8 @@
 # Changelog
 
+# v3.3.1
+- Fix the pictologo image (webp) in Games page because Safari doesn't support it.
+
 # v3.3.0
 - Add unit tests with [Jest and Gatsby](https://www.gatsbyjs.org/docs/unit-testing/).
 - Add test coverage reporting (istanbul).
