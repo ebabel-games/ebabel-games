@@ -51,7 +51,9 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- In offline mode, the cv is not available. Fix this.
+- Fix: in offline mode, the cv is not available.
+- Indicate whether the internet is down or not (also toasts?).
+- Indicate visually (toast?) the website is offline-ready.
 - Rewrite code in Typescript.
 - Add a block "Favourite quotes":
   - "Functionality is an asset, code is a liability".
