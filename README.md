@@ -51,7 +51,6 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Fix: in offline mode, the cv is not available.
 - Indicate whether the internet is down or not (also toasts?).
 - Indicate visually (toast?) the website is offline-ready.
 - Rewrite code in Typescript.
