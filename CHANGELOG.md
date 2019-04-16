@@ -1,6 +1,6 @@
 # Changelog
 
-# v3.3.2
+# [v3.3.2](https://github.com/ebabel-games/ebabel-games/releases/tag/v3.3.2)
 - Fix: in offline mode, the cv is not available.
 
 # [v3.3.1](https://github.com/ebabel-games/ebabel-games/releases/tag/v3.3.1)
