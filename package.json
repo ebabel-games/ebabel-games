@@ -1,7 +1,7 @@
 {
   "name": "ebabel-games",
   "private": true,
-  "version": "3.3.2",
+  "version": "3.3.3",
   "engines": {
     "node": ">=11.13.0"
   },
@@ -31,7 +31,7 @@
   },
   "homepage": "https://ebabel.eu",
   "dependencies": {
-    "gatsby": "^2.3.5",
+    "gatsby": "^2.3.24",
     "gatsby-image": "^2.0.37",
     "gatsby-plugin-manifest": "^2.0.26",
     "gatsby-plugin-offline": "^2.0.25",
