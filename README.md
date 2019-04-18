@@ -51,7 +51,6 @@ Note: for now, this website doesn't have any database.
 ## Future development
 
 ### todo tasks
-- Rewrite code in Typescript.
 - Fix: html output reloading and not giving a "current page" style in Nav component.
 - Fix: page not found is no longer used - check how Gatsby handles routing and redirecting to 404.
 - Add a privacy policy.

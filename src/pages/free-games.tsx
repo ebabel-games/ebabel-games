@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -10,7 +10,7 @@ import Footer from '..//components/footer';
 
 const FreeGames = () => (
   <Layout>
-    <SEO title="Free Games" keywords={[`HTML5 games`, `freelance developer`]} />
+    <SEO description="" lang="en" meta="" keywords={[`HTML5 games`, `freelance developer`]} title="Free Games" />
     <MainHeader title="Free games" subtitle="HTML5 games I developed" />
 
     <Nav />

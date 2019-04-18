@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { Link } from "gatsby";
 
 import Layout from "../components/layout";
@@ -10,7 +10,7 @@ import Footer from "../components/footer";
 
 const NotFound = () => (
   <Layout>
-    <SEO title="Page not found" keywords={[`error 404`, `page not found`]} />
+    <SEO description="" lang="en" meta="" keywords={[`error 404`, `page not found`]} title="Page not found" />
     <MainHeader title="Page not found" subtitle="Probably not your fault" />
  
     <Nav />

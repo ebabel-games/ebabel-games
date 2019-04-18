@@ -2,6 +2,7 @@
 
 # [v3.3.3](https://github.com/ebabel-games/ebabel-games/releases/tag/v3.3.3)
 - Fix: npm audit security issues.
+- Rewrite code in Typescript.
 
 # [v3.3.2](https://github.com/ebabel-games/ebabel-games/releases/tag/v3.3.2)
 - Fix: in offline mode, the cv is not available.

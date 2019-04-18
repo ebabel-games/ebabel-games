@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 
 import Layout from "../components/layout";
 import SEO from "../components/seo";
@@ -9,7 +9,7 @@ import Footer from "../components/footer";
 
 const PictologoPrivacyPolicy = () => (
   <Layout>
-    <SEO title="Pictologo" keywords={[`privacy policy`, `Pictologo game`]} />
+    <SEO description="" lang="en" meta="" keywords={[`privacy policy`, `Pictologo game`]} title="Pictologo" />
     <MainHeader title="Pictologo" subtitle="Privacy Policy" />
 
     <Nav />
