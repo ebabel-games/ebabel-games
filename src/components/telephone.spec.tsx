@@ -1,5 +1,5 @@
 /* global expect  */
-import React from "react";
+import * as React from "react";
 import renderer from "react-test-renderer";
 
 import Telephone from "./telephone";
@@ -15,7 +15,7 @@ describe("Telephone", () => {
     expect(tree).toMatchSnapshot();
   });
 
-  it ("creates an anchor tag", () => {
+  it("creates an anchor tag", () => {
     expect(tree.type).toBe("a");
   });
 
